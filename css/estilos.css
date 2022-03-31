@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CONTACTO */
+
+#contacto {
+  background-image: url(../images/fondo-contacto.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+nav .active {
+  border: 1px solid #e20000;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #e20000;
+}
+
+p {
+  font-size: 16px;
+  color: #6a6a6a;
+}
+.form-control {
+  border-radius: 15px;
+}
+.btn-rojo {
+  text-decoration: none;
+  background-color: #e20000;
+  color: white !important;
+  font-weight: 100;
+  border-radius: 16px;
+  padding: 6px 12px;
+}
+.btn-rojo:hover {
+  background-color: #370a6d;
+  color: white;
+}
+.btn-blanco {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 23px;
+}
+.btn-blanco:hover {
+  background-color: #370a6d;
+  color: white;
+}
+textarea {
+  height: 150px;
+}
+.proyecto {
+  background-color: white;
+  border: 1px solid #eee;
+}
+.proyecto p {
+  height: 148px;
+}
+.proyecto h2 {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #e20000;
+}
+.proyecto a {
+  color: #e20000;
+  text-decoration: none;
+}
+.proyecto img {
+  height: 208px;
+}
+footer div a {
+  color: white;
+  font-weight: 100;
+}
+
+footer {
+  margin-top: 33px;
+}
+
+.fa-github {
+  font-size: 33px;
+  font-weight: 100;
+}
+
+.fa-github,
+.whatsapp:hover {
+  color: white;
+}
+
+.fa-linkedin-in {
+  color: red;
+  background-color: white;
+  font-size: 22px;
+  border-radius: 100px;
+  padding: 6px 7px;
+  margin: 0 8px;
+}
+
+.whatsapp {
+  background-color: #370a6d;
+  color: white;
+  width: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: 8px 0 15px 0;
+  right: 80px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.sponsor {
+  color: white;
+}
+
+/* INICIO */
+
+.cohete {
+  height: 400px;
+}
+
+.cohete:hover {
+  transform: scale(1.03);
+}
+.texto {
+  margin-bottom: 37px;
+}
+
+.texto p {
+  border: 1px solid white;
+  font-weight: bold;
+  padding: 3px 2px;
+  margin: 0px 285px;
+  font-size: 17px;
+  color: white;
+  border-radius: 20px;
+}
+
+.btn-violet {
+  margin: 41px 0px 25px 0px;
+}
+
+.btn-violet a {
+  border-radius: 15px;
+  padding: 9px 12px;
+  background-color: white;
+  text-decoration: none;
+  color: purple;
+}
+.btn-violet a:hover {
+  background-color: #370a6d;
+  color: white;
+}
+
+/* SOBRE MI */
+
+.foto-de-mi {
+  width: 250px;
+  height: 250px;
+  background-image: url(../images/foto_dante.jpg);
+  background-size: 100%;
+  border-radius: 120px;
+  border: 3px solid black;
+}
+
+.descripcion-de-mi p {
+  width: 450px;
+}
+
+.correo-de-mi {
+  margin-top: 90px;
+}
+
+.correo-de-mi a {
+  text-decoration: none;
+  background-color: #e20000;
+  color: white;
+  padding: 7px 7px;
+  border-radius: 10px;
+}
+
+.correo-de-mi a:hover {
+  background-color: #370a6d;
+  color: white;
+}
+
+#tecnologias {
+  background: rgb(255, 70, 50);
+  background: linear-gradient(
+    185deg,
+    rgba(255, 70, 50, 1) 25%,
+    rgba(244, 70, 7, 1) 100%
+  );
+  height: 600px;
+  /* width: 100%; */
+}
+
+#tecnologias h3 {
+  font-size: 15px;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 750px) {
+  #inicio,
+  #contacto {
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+/* proyectos */
+
+#proyectos {
+  background-image: url(../images/fondo-proyectos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#proyectos p {
+  font-size: 14px;
+}
+
+/* INICIO */
+
+#inicio {
+  background-image: url(../images/fondo-contacto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 100%; */
+}
+
+/* SOBRE MI */
+#sobre-mi {
+  background-image: url(../images/fondo-proyectos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
