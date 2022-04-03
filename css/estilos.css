@@ -235,7 +235,7 @@ section h3 {
 
 #trabajo .row {
   /* border: solid 1px black; */
-  height: 170px;
+  height: 220px;
   box-shadow: 1px 5px 2px 5px #eee;
 }
 
@@ -274,7 +274,13 @@ section h3 {
 .unpaz img:hover {
   filter: grayscale(0%);
 }
-
+.depcsuite img {
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+.depcsuite img:hover {
+  filter: grayscale(0%);
+}
 .titles h3 {
   font-size: 18px;
   font-weight: 600;
@@ -290,10 +296,13 @@ section h3 {
 /* #educacion h3 {
   font-size: 24px;
 } */
-
+.titles p {
+  width: 600px;
+  text-align: justify;
+}
 #cursos .row {
-  border: 1px solid black;
-  height: 500px;
+  box-shadow: 1px 5px 2px 5px #eee;
+  height: 400px;
 }
 
 #hobbit .container-fluid {
