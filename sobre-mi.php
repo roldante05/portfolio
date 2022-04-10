@@ -17,8 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-md  mb-4">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -226,24 +225,12 @@
                         <img src="./images/papillote.png" width="130" alt="">
                     </div>
                     <div class="titles col-4 py-3">
-                        <h3>Tecnico en informatica</h3>
-                        <h4>Universidad Nacional de General Sarmiento</h3>
-                            <h5>2022 - Actualmente</h3>
-                                <p>https://www.ungs.edu.ar/</p>
+                        <h3>Bartender</h3>
+                        <h4>Papillote Coworking</h3>
+                            <h5> Febrero - Abril - 2022</h3>
+                                <p>https://www.instagram.com/cocktailclan.sm/</p>
                     </div>
                 </div>
-                <div class="d-flex align-items-start my-2">
-                    <div class="ungs col-2 d-flex align-items-center">
-                        <img src="./images/ungs.jfif" width="130" alt="">
-                    </div>
-                    <div class="titles col-4 py-3">
-                        <h3>Tecnico en informatica</h3>
-                        <h4>Universidad Nacional de General Sarmiento</h3>
-                            <h5>2022 - Actualmente</h3>
-                                <p>https://www.ungs.edu.ar/</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -260,8 +247,7 @@
         <div class="row">
             <div class="col-12 col-sm-3">
                 <a href="https://github.com/roldante05"><i class="fa-brands fa-github "></i></a>
-                <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
             <div class="col-12 col-sm-3 sponsor">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>

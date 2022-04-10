@@ -300,9 +300,9 @@ section h3 {
   width: 600px;
   text-align: justify;
 }
-#cursos .row {
+#cursos .container .row {
   box-shadow: 1px 5px 2px 5px #eee;
-  height: 400px;
+  /* height: 200px; */
 }
 
 #hobbit .container-fluid {
