@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
 </head>
 
 <body id="sobre-mi">
@@ -44,16 +44,20 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-12 col-sm-7 descripcion-de-mi">
-                <h1 class="mt-5 mb-5">Sobre mí</h1>
-                <p>Apasionado por la tecnología. Soy estudiante de la carrera Tec en informatica</p>
-                <div class="correo-de-mi">
-                    <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
+            <di class="d-flex align-items-center">
+                <div class="col-12 col-sm-7 descripcion-de-mi">
+                    <h1 class="mt-1 mb-3">Sobre mí</h1>
+                    <p style="text-align: justify;">Apasionado por la tecnología. Soy estudiante de la carrera Tec en informatica
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatem.
+                    </p>
+                    <div class="correo-de-mi mt-5">
+                        <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
+                    </div>
                 </div>
-            </div>
-            <div class="my-5 foto-de-mi">
-                <!-- <img src="./images/foto_dante.jpg" alt="Dante Roldan"> -->
-            </div>
+                <div class="mt-5 mb-4 foto-de-mi">
+                    <!-- <img src="./images/foto_dante.jpg" alt="Dante Roldan"> -->
+                </div>
+        </div>
         </div>
     </main>
     <section id="tecnologias">
@@ -152,7 +156,7 @@
                     <h3>Soldado de 2da (vs "ec")</h3>
                     <h4>Comando de Adiestramiento y Alistamiento del Ejercito Argentino</h3>
                         <h5>2021 - 2022</h5>
-                        <p>
+                        <p class="descripcion">
                             Cumplimiento de los estándares de disciplina,
                             uso de armas y mantenimiento de las mismas,
                             limpieza y cuidado de las instalaciones militares de
@@ -174,7 +178,7 @@
                         <img src="./images/ungs.jfif" width="130" alt="">
                     </div>
                     <div class="titles col-4 py-3">
-                        <h3>Tecnico en informatica</h3>
+                        <h3>Tecnicatura en informatica</h3>
                         <h4>Universidad Nacional de General Sarmiento</h3>
                             <h5>2022 - Actualmente</h3>
                                 <p>https://www.ungs.edu.ar/</p>
@@ -183,7 +187,7 @@
                         <img src="./images/unpaz.jpg" width="130" alt="">
                     </div>
                     <div class="titles col-4 py-3">
-                        <h3>Licenciado en tecnologias de la informacion</h3>
+                        <h3>Licenciatura en tecnologias de la informacion</h3>
                         <h4>Universidad Nacional de José C. Paz</h3>
                             <h5>2022 - Actualmente</h3>
                                 <p>https://www.unpaz.edu.ar/</p>
@@ -215,10 +219,10 @@
                         <img class="pt-5" src="./images/logo-depcsuite.svg" width="130" alt="">
                     </div>
                     <div class="titles col-4 py-3">
-                        <h3>Tecnico en informatica</h3>
-                        <h4>Universidad Nacional de General Sarmiento</h3>
+                        <h3>Desarrollo Web Full Stack</h3>
+                        <h4>DePc Suite</h3>
                             <h5>2022 - Actualmente</h3>
-                                <p>https://www.ungs.edu.ar/</p>
+                                <p>https://depcsuite.com/</p>
                     </div>
 
                     <div class="ungs col-2 d-flex align-items-center">
@@ -234,23 +238,50 @@
             </div>
         </div>
     </section>
-    <!-- <section id="hobbit">
-        <div class="container-fluid">
-            <div class="row py-5 mx-0">
-                    <i class="fa-solid fa-message pt-4 px-4"></i>
-                 
-     
+    <section id="hobbit">
+        <div class="container">
+            <div class="row mt-5 pt-5 mx-0">
+                <!-- <div class="col-sm-6 col-12">
+                    <div class="row ml-sm-2 bg-white shadow ms-sm-1 card-message">
+                        <div class="col-4 text-center message d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <div class="row col-8 p-5">
+                            <h2>HOBBIES</h2>
+                            <ul>
+                                <li>Tenis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="d-flex justify-content-center">
+                    <div class="row ml-sm-2 bg-white shadow ms-sm-1 card-hobbit">
+                        <div class="col-4 text-center star d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="row col-8 p-5">
+                            <h2>HOBBIES</h2>
+                            <ul>
+                                <li>Futbol</li>
+                                <li>Mates</li>
+                                <li>Mirar Series</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        </div>
-    </section> -->
+    </section>
     <footer class="container col-sm-12 col-12 ">
         <div class="row">
             <div class="col-12 col-sm-3">
-                <a href="https://github.com/roldante05"><i class="fa-brands fa-github "></i></a>
+                <a href="https://github.com/roldante05"><i class="fa-brands fa-github" style="color: red;"></i></a>
                 <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="col-12 col-sm-3 sponsor">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
+            <div class="col-12 col-sm-3 " style="color: #E20000;">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
             <div class="col-12 col-sm-3"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">
@@ -259,7 +290,7 @@
     </footer>
 
 
-
+    <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

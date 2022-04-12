@@ -17,8 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-md  mb-4">
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -116,16 +115,15 @@
     <footer class="container col-sm-12 col-12 ">
         <div class="row">
             <div class="col-12 col-sm-3">
-                <a href="https://github.com/roldante05"><i class="fa-brands fa-github "></i></a>
-                <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/roldante05"><i class="fa-brands fa-github " style="color: red;"></i></a>
+                <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="col-12 col-sm-3 sponsor">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
+            <div class="col-12 col-sm-3 sponsor" style=" color: rgb(255, 102, 0);">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
             <div class="col-12 col-sm-3"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
         </div>
     </footer>
 
