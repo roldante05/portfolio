@@ -1,3 +1,8 @@
+<?php
+$pg = "contacto"
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,35 +19,7 @@
 </head>
 
 <body id="contacto">
-    <header>
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" aria-current="page" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  py-1 px-3 px-sm-4 active" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex ">
-                        <a class="btn-rojo " type="submit">Descargar mi CV <i class="fa-solid fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include_once "header.php" ?>
     <main class="container">
         <div class="row">
             <div class="col-12 mb-5 mt-3">
@@ -56,19 +33,15 @@
             <div class="col-sm-6 col-12">
                 <form action="" method="POST">
                     <div class="mb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"
-                            class="form-control shadow">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo"
-                            class="form-control shadow">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
                     </div>
                     <div class="mb-3">
-                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp"
-                            class="form-control shadow">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp" class="form-control shadow">
                     </div>
-                    <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje"
-                        class="form-control shadow" required=""></textarea>
+                    <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje" class="form-control shadow" required=""></textarea>
                     <div class="mb-3 mt-3">
                         <button id="btnEnviar" name="btnEnviar" class="btn btn-blanco ">ENVIAR</button>
                     </div>
@@ -78,14 +51,13 @@
     </main>
     <footer class="container col-sm-12 col-12 ">
         <div class="row">
-            <div class="col-12 col-sm-3">
+            <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com/roldante05"><i class="fa-brands fa-github "></i></a>
-                <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="col-12 col-sm-3 sponsor">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
-            <div class="col-12 col-sm-3"> <a href="mailto:">danteroldan72@gmail.com</a></div>
+            <div class="col-12 col-sm-3 sponsor text-center texte-sm-start">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
+            <div class="col-12 col-sm-3 text-center texte-sm-start"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">
             <a href=""><i class="fa-brands fa-whatsapp"></i></a>

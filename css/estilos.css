@@ -149,15 +149,9 @@ footer {
 .texto p {
   border: 1px solid white;
   font-weight: bold;
-  padding: 3px 2px;
-  margin: 0px 285px;
   font-size: 17px;
   color: white;
   border-radius: 20px;
-}
-
-.btn-violet {
-  margin: 41px 0px 25px 0px;
 }
 
 .btn-violet a {
@@ -183,13 +177,8 @@ footer {
   border: 3px solid black;
 }
 
-.descripcion-de-mi p {
-  width: 450px;
-}
 
-/* .correo-de-mi {
-  margin-top: 90px;
-} */
+
 
 .correo-de-mi a {
   text-decoration: none;
@@ -212,7 +201,7 @@ footer {
     rgba(244, 70, 7, 1) 100%
   );
   height: 600px;
-  /* width: 100%; */
+
 }
 
 #tecnologias h3 {
@@ -229,19 +218,25 @@ section h3 {
   font-size: 23px;
 }
 
-#trabajo .row {
-  /* border: solid 1px black; */
-  height: 220px;
-  box-shadow: 1px 5px 2px 5px #eee;
-}
 
 #trabajo .caae div ul {
   list-style-type: none;
 }
 
-#educacion .row {
-  box-shadow: 1px 5px 2px 5px #eee;
-  height: 200px;
+
+
+ #trabajo .titles h4{
+  color: #370a6d;
+}
+ #trabajo .title{
+  color: #370a6d;
+}
+
+#educacion .titles h4, #cursos .titles h4 {
+  color: #e20000;
+}
+#educacion .title,#cursos .title  {
+  color: #e20000;
 }
 
 .caae img {
@@ -300,10 +295,7 @@ section h3 {
   height: 250px;
 }
 
-#cursos .row {
-  box-shadow: 1px 5px 2px 5px #eee;
-  height: 200px;
-}
+
 #hobbit .card-hobbit,
 .card-message {
   border-radius: 20px 20px 20px 20px;
@@ -349,16 +341,9 @@ section h3 {
   color: #e20000;
 }
 
-/* MEDIA QUERIES */
 
-@media (max-width: 750px) {
-  #inicio,
-  #contacto {
-    background-image: url(../images/fondo-proyectos.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-}
+
+
 /* proyectos */
 
 #proyectos {
@@ -385,4 +370,118 @@ section h3 {
   background-image: url(../images/fondo-proyectos.png);
   background-repeat: no-repeat;
   background-size: 100%;
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 750px) {
+  #inicio, #contacto  {
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover; */
+  }
+
+#inicio .cohete{
+  height: 300px;
+}
+
+#inicio .texto p{
+  color: red;
+  border: 1px solid red;
+}
+
+#inicio .btn-violet a{
+  background-color: #370a6d;
+  color: white;
+}
+
+
+#inicio footer .fa-github,
+#inicio footer .fa-linkedin-in,
+#inicio footer a,
+#inicio footer .sponsor{
+  color: red;
+}
+
+#inicio .fa-whatsapp{
+  color: white;
+}
+
+#contacto footer .fa-github,
+#contacto footer .fa-linkedin-in,
+#contacto footer a,
+#contacto footer .sponsor{
+  color: red;
+}
+
+#contacto .fa-whatsapp{
+  color: white;
+}
+
+#proyectos footer .fa-github,
+#proyectos footer .fa-linkedin-in,
+#proyectos footer a,
+#proyectos footer .sponsor{
+  color: red;
+}
+#protectos .fa-whatsapp{
+  color: white;
+}
+
+
+
+#sobre-mi main .d-flex{
+display: flex;
+flex-direction: column;
+
+}
+
+#sobre-mi .foto-de-mi {
+  width:290px;
+  height: 290px;
+  border-radius: 150px;
+}
+
+#sobre-mi #tecnologias{
+  height: 1300px;
+}
+
+#sobre-mi #educacion .formacion, #cursos .formacion{
+  display: flex;
+  flex-direction: column;
+}
+
+#sobre-mi .row h1{
+  font-size: 28px;
+}
+
+#sobre-mi .row p {
+  font-size: 16px;
+}
+
+#sobre-mi .row .correo-de-mi a{
+  font-size: 14px;
+}
+
+#educacion .title,#cursos .title{
+  font-size: 19px;
+  
+}
+
+#educacion .titles h3,#cursos .titles h3{
+  font-size: 18px;
+}
+
+#trabajo .titles .descripcion{
+  width: 350px;
+  text-align: justify;
+}
+
+#sobre-mi,#inicio,#contacto,#proyectos{
+  width: 100%;
+}
+
 }

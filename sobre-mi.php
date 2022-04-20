@@ -1,3 +1,8 @@
+<?php
+$pg = "sobre-mi"
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,57 +19,30 @@
 </head>
 
 <body id="sobre-mi">
-    <header>
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link  px-4 py-1" aria-current="page" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 active" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex">
-                        <a class="btn-rojo " type="submit">Descargar mi CV <i class="fa-solid fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include_once "header.php" ?>
     <main class="container">
         <div class="row">
-            <di class="d-flex align-items-center">
-                <div class="col-12 col-sm-7 descripcion-de-mi">
+            <div class="d-flex align-sm-items-center">
+                <div class="col-10 col-sm-7 descripcion-de-mi">
                     <h1 class="mt-1 mb-3">Sobre mí</h1>
-                    <p style="text-align: justify;">Apasionado por la tecnología. Soy estudiante de la carrera Tec en informatica
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatem.
+                    <p class="col-sm-8 col-12">Apasionado por la tecnología. Soy estudiante cursando la carrera Tec en informatica
+                        primer año, mi paso relacionado con tecnologia fue haciendo uno que otro curso en plataforma atraves de internet y siendo autodidacta
                     </p>
-                    <div class="correo-de-mi mt-5">
+                    <div class="correo-de-mi mt-sm-5 mt-1">
                         <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
                     </div>
                 </div>
-                <div class="mt-5 mb-4 foto-de-mi">
+                <div class="mt-5 mb-4 foto-de-mi ms-4">
                     <!-- <img src="./images/foto_dante.jpg" alt="Dante Roldan"> -->
                 </div>
-        </div>
+            </div>
         </div>
     </main>
     <section id="tecnologias">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="my-sm-5 text-white">Dominio de tecnologias</h2>
+                    <h2 class="my-sm-5 text-white my-3 ">Dominio de tecnologias</h2>
                 </div>
             </div>
             <div class="row">
@@ -147,92 +125,106 @@
     </section>
     <section id="trabajo">
         <div class="container">
-            <h3 class="my-5"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i>Experiencia laboral</h3>
-            <div class="row">
-                <div class="caae col-2 d-flex align-items-center">
-                    <img src="./images/caae.png" width="130" alt="">
-                </div>
-                <div class="titles col-4  pt-4">
-                    <h3>Soldado de 2da (vs "ec")</h3>
-                    <h4>Comando de Adiestramiento y Alistamiento del Ejercito Argentino</h3>
-                        <h5>2021 - 2022</h5>
-                        <p class="descripcion">
-                            Cumplimiento de los estándares de disciplina,
-                            uso de armas y mantenimiento de las mismas,
-                            limpieza y cuidado de las instalaciones militares de
-                            residencia,
-                            servicio de guardia y seguridad
-                        </p>
+            <h3 class="my-sm-5 my-5 title"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i>Experiencia laboral</h3>
+            <div class="row shadow">
+                <div class="d-flex align-items-sm-center">
+                    <div class="caae col-2  d-none d-sm-block">
+                        <img src="./images/caae.png" width="130" alt="">
+                    </div>
 
+                    <div class="titles col-10  pt-sm-4">
+                        <h3>Soldado de 2da (vs "ec")</h3>
+                        <h4>Comando de Adiestramiento y Alistamiento del Ejercito Argentino</h3>
+                            <h5>2021 - 2022</h5>
+                            <p class="descripcion">
+                                Cumplimiento de los estándares de disciplina,
+                                uso de armas y mantenimiento de las mismas,
+                                limpieza y cuidado de las instalaciones militares de
+                                residencia,
+                                servicio de guardia y seguridad
+                            </p>
+
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
     <section id="educacion">
         <div class="container">
-            <h3 class="my-5"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i>Formacion
-                Academica</h3>
-            <div class="row">
-                <div class="d-flex align-items-center my-2">
+            <h3 class="my-3 my-sm-5 title"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i>Formacion
+                Academica (Cursando)</h3>
+            <div class="row shadow">
+                <div class="col-12 col-sm-6">
+                    <div class="formacion row">
+                        <div class="ungs col-sm-3 d-none d-sm-block">
+                            <img src="./images/ungs.jfif" width="130" alt="">
+                        </div>
+                        <div class="titles col-sm-9 py-3">
+                            <h3>Tecnicatura en informatica</h3>
+                            <h4>Universidad Nacional de General Sarmiento</h3>
+                                <h5>2022 - Actualmente Cursando (1er año)</h3>
+                                    <p>https://www.ungs.edu.ar/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="unpaz col-sm-3  d-none d-sm-block">
+                            <img src="./images/unpaz.jpg" width="130" alt="">
+                        </div>
+                        <div class="titles col-sm-8 py-3">
+                            <h3>Analistas de Sistemas</h3>
+                            <h4>Universidad Nacional de José C. Paz</h3>
+                                <h5>2022 - Actualmente Cursando (1er año)</h3>
+                                    <p>https://www.unpaz.edu.ar/</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="d-flex align-items-center my-2">
                     <div class="ungs col-2 d-flex align-items-center">
                         <img src="./images/ungs.jfif" width="130" alt="">
                     </div>
                     <div class="titles col-4 py-3">
-                        <h3>Tecnicatura en informatica</h3>
-                        <h4>Universidad Nacional de General Sarmiento</h3>
+                        <h3>Tecnico en informatica</h3>
+                        <h4>Ungs</h3>
                             <h5>2022 - Actualmente</h3>
                                 <p>https://www.ungs.edu.ar/</p>
                     </div>
-                    <div class="unpaz col-2 d-flex align-items-center">
-                        <img src="./images/unpaz.jpg" width="130" alt="">
-                    </div>
-                    <div class="titles col-4 py-3">
-                        <h3>Licenciatura en tecnologias de la informacion</h3>
-                        <h4>Universidad Nacional de José C. Paz</h3>
-                            <h5>2022 - Actualmente</h3>
-                                <p>https://www.unpaz.edu.ar/</p>
-                    </div>
-                </div>
-                <!-- <div class="d-flex align-items-center my-2">
-                <div class="ungs col-2 d-flex align-items-center">
-                    <img src="./images/ungs.jfif" width="130" alt="">
-                </div>
-                <div class="titles col-4 py-3">
-                    <h3>Tecnico en informatica</h3>
-                    <h4>Ungs</h3>
-                    <h5>2022 - Actualmente</h3>
-                    <p>https://www.ungs.edu.ar/</p>
-                </div>
-                
-            </div> -->
+                </div> -->
             </div>
 
         </div>
     </section>
     <section id="cursos">
         <div class="container">
-            <h3 class="my-5"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i> Cursos de
+            <h3 class="my-3 my-sm-5 title"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i> Cursos de
                 desarrollo profesional</h3>
-            <div class="row">
-                <div class="d-flex align-items-start my-2">
-                    <div class="depcsuite col-2 d-flex align-items-center">
-                        <img class="pt-5" src="./images/logo-depcsuite.svg" width="130" alt="">
+            <div class="row shadow">
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="depcsuite col-sm-4  d-none d-sm-block">
+                            <img class="pt-5" src="./images/logo-depcsuite.svg" width="130" alt="">
+                        </div>
+                        <div class="titles col-sm-8 py-3">
+                            <h3>Desarrollo Web Full Stack</h3>
+                            <h4>DePc Suite</h3>
+                                <h5>2022 - Actualmente Cursando </h3>
+                                    <p>https://depcsuite.com/</p>
+                        </div>
                     </div>
-                    <div class="titles col-4 py-3">
-                        <h3>Desarrollo Web Full Stack</h3>
-                        <h4>DePc Suite</h3>
-                            <h5>2022 - Actualmente</h3>
-                                <p>https://depcsuite.com/</p>
-                    </div>
-
-                    <div class="ungs col-2 d-flex align-items-center">
-                        <img src="./images/papillote.png" width="130" alt="">
-                    </div>
-                    <div class="titles col-4 py-3">
-                        <h3>Bartender</h3>
-                        <h4>Papillote Coworking</h3>
-                            <h5> Febrero - Abril - 2022</h3>
-                                <p>https://www.instagram.com/cocktailclan.sm/</p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="ungs col-sm-4 py-3 d-none d-sm-block">
+                            <img src="./images/papillote.png" width="130" alt="">
+                        </div>
+                        <div class="titles col-sm-8 py-3">
+                            <h3>Bartender</h3>
+                            <h4>Papillote Coworking</h3>
+                                <h5> Febrero - Abril - 2022</h3>
+                                    <p>https://www.instagram.com <br> /cocktailclan.sm/</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,7 +257,7 @@
                             <ul>
                                 <li>Futbol</li>
                                 <li>Mates</li>
-                                <li>Mirar Series</li>
+                                <li>Series</li>
                             </ul>
                         </div>
                     </div>
@@ -276,13 +268,13 @@
     </section>
     <footer class="container col-sm-12 col-12 ">
         <div class="row">
-            <div class="col-12 col-sm-3">
+            <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com/roldante05"><i class="fa-brands fa-github" style="color: red;"></i></a>
                 <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="col-12 col-sm-3 " style="color: #E20000;">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
-            <div class="col-12 col-sm-3"> <a href="mailto:">danteroldan72@gmail.com</a></div>
+            <div class="col-12 col-sm-3 text-center text-sm-start" style="color: #E20000;">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
+            <div class="col-12 col-sm-3 text-center text-sm-start"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">
             <a href=""><i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
