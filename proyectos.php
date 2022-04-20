@@ -22,7 +22,7 @@ $pg = "proyectos"
     <?php include_once "header.php" ?>
     <main class="container">
         <div class="row">
-            <div class="col-12 mb-5 mt-3">
+            <div class="col-12 mb-3 mt-3">
                 <h1>Proyectos</h1>
             </div>
         </div>

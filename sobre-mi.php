@@ -25,8 +25,9 @@ $pg = "sobre-mi"
             <div class="d-flex align-sm-items-center">
                 <div class="col-10 col-sm-7 descripcion-de-mi">
                     <h1 class="mt-1 mb-3">Sobre mí</h1>
-                    <p class="col-sm-8 col-12">Apasionado por la tecnología. Soy estudiante cursando la carrera Tec en informatica
-                        primer año, mi paso relacionado con tecnologia fue haciendo uno que otro curso en plataforma atraves de internet y siendo autodidacta
+                    <p class="col-sm-8 col-12">Buenas soy Dante Roldan, estudiante cursando la carrera Tec en Informaica en la ungs, me gusta lo que es la
+                        tecnologia y desarrollar nuevas habilidades, actualmente me estoy especializando en el desarrollo web, de forma autodidacta y
+                        haciendo cursos
                     </p>
                     <div class="correo-de-mi mt-sm-5 mt-1">
                         <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
