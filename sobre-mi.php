@@ -156,7 +156,7 @@ $pg = "sobre-mi"
             <h3 class="my-3 my-sm-5 title"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i>Formacion
                 Academica (Cursando)</h3>
             <div class="row shadow">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 pt-4">
                     <div class="formacion row">
                         <div class="ungs col-sm-3 d-none d-sm-block">
                             <img src="./images/ungs.jfif" width="130" alt="">
@@ -169,7 +169,8 @@ $pg = "sobre-mi"
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6">
+
+                <!-- <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="unpaz col-sm-3  d-none d-sm-block">
                             <img src="./images/unpaz.jpg" width="130" alt="">
@@ -181,7 +182,7 @@ $pg = "sobre-mi"
                                     <p>https://www.unpaz.edu.ar/</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="d-flex align-items-center my-2">
                     <div class="ungs col-2 d-flex align-items-center">
                         <img src="./images/ungs.jfif" width="130" alt="">
@@ -253,12 +254,13 @@ $pg = "sobre-mi"
                         <div class="col-4 text-center star d-flex justify-content-center align-items-center">
                             <i class="fa-solid fa-star"></i>
                         </div>
-                        <div class="row col-8 p-5">
+                        <div class="row col-8 p-4">
                             <h2>HOBBIES</h2>
                             <ul>
                                 <li>Futbol</li>
                                 <li>Mates</li>
                                 <li>Series</li>
+                                <li>Bartender</li>
                             </ul>
                         </div>
                     </div>
@@ -274,7 +276,7 @@ $pg = "sobre-mi"
                 <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="col-12 col-sm-3 text-center text-sm-start" style="color: #E20000;">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
+            <div class="col-12 col-sm-3 text-center text-sm-start"><span>Sponsor</span> <a href="https://depcsuite.com/">DePC suite</a></div>
             <div class="col-12 col-sm-3 text-center text-sm-start"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">

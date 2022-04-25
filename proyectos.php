@@ -97,7 +97,7 @@ $pg = "proyectos"
                 <a href="https://www.linkedin.com/in/dante-rold%C3%A1n-a87998201/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
 
-            <div class="col-12 col-sm-3 sponsor text-center text-sm-start" style=" color: rgb(255, 102, 0);">Sponsor <a href="https://depcsuite.com/">DePC suite</a></div>
+            <div class="col-12 col-sm-3 sponsor text-center text-sm-start"><span>Sponsor</span> <a href="https://depcsuite.com/">DePC suite</a></div>
             <div class="col-12 col-sm-3 text-center text-sm-start"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">
