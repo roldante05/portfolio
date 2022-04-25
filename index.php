@@ -22,16 +22,17 @@ $pg = "inicio"
     <main class="container">
         <div class="row">
             <div class="col-12 col-sm-12 ">
-                <div class="m-4 text-center mb-5">
-                    <a href="proyectos.html"><img class="cohete" src="./images/cohete.svg" alt="Cohete"></a>
+                <div class="m-4 text-center my-4 ">
+                    <a href="proyectos.php"><img class="computer d-none d-sm-block col-sm-12" src="./images/undraw_feeling_proud_qne1.svg" alt="computer"></a>
+                    <a href="proyectos.php"><img class="mobile col-12 d-sm-none d-block" src="./images/undraw_mobile_application_re_13u3.svg" alt="Cohete"></a>
                 </div>
                 <div class="text-center col-12  d-flex justify-content-center">
                     <div class="texto mt-1">
-                        <p class="col-12 py-1 px-4">Bienvenid@ a mi sitio web sobre docencia en sistemas.</p>
+                        <p class="col-12 py-1 px-4">Bienvenid@ a mi sitio web sobre sistemas.</p>
                     </div>
                 </div>
                 <div class="btn-violet text-center mb-3">
-                    <a href="proyectos.html">Conoce mis proyectos</a>
+                    <a href="proyectos.php">Conoce mis proyectos</a>
                 </div>
             </div>
         </div>

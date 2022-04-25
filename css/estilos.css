@@ -135,11 +135,11 @@ footer {
 
 /* INICIO */
 
-.cohete {
-  height: 400px;
+.computer {
+  height: 300px;
 }
 
-.cohete:hover {
+.computer:hover {
   transform: scale(1.03);
 }
 .texto {
@@ -388,8 +388,8 @@ section h3 {
     /* background-size: cover; */
   }
 
-#inicio .cohete{
-  height: 300px;
+#inicio .mobile{
+  height: 200px;
 }
 
 #inicio .texto p{

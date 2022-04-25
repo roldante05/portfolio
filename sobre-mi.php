@@ -156,7 +156,7 @@ $pg = "sobre-mi"
             <h3 class="my-3 my-sm-5 title"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i>Formacion
                 Academica (Cursando)</h3>
             <div class="row shadow">
-                <div class="col-12 col-sm-6 pt-4">
+                <div class="col-12 col-sm-7 pt-4">
                     <div class="formacion row">
                         <div class="ungs col-sm-3 d-none d-sm-block">
                             <img src="./images/ungs.jfif" width="130" alt="">
@@ -170,7 +170,9 @@ $pg = "sobre-mi"
                     </div>
                 </div>
 
-                <!-- <div class="col-12 col-sm-6">
+                <!-- COMENTADO POR QUE DEJE LA  CARRERA PENDIENTE -->
+
+                <!-- <div class="col-12 col-sm-6 pt-4">
                     <div class="row">
                         <div class="unpaz col-sm-3  d-none d-sm-block">
                             <img src="./images/unpaz.jpg" width="130" alt="">
@@ -183,17 +185,7 @@ $pg = "sobre-mi"
                         </div>
                     </div>
                 </div> -->
-                <!-- <div class="d-flex align-items-center my-2">
-                    <div class="ungs col-2 d-flex align-items-center">
-                        <img src="./images/ungs.jfif" width="130" alt="">
-                    </div>
-                    <div class="titles col-4 py-3">
-                        <h3>Tecnico en informatica</h3>
-                        <h4>Ungs</h3>
-                            <h5>2022 - Actualmente</h3>
-                                <p>https://www.ungs.edu.ar/</p>
-                    </div>
-                </div> -->
+
             </div>
 
         </div>
@@ -235,20 +227,6 @@ $pg = "sobre-mi"
     <section id="hobbit">
         <div class="container">
             <div class="row mt-5 pt-5 mx-0">
-                <!-- <div class="col-sm-6 col-12">
-                    <div class="row ml-sm-2 bg-white shadow ms-sm-1 card-message">
-                        <div class="col-4 text-center message d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-message"></i>
-                        </div>
-                        <div class="row col-8 p-5">
-                            <h2>HOBBIES</h2>
-                            <ul>
-                                <li>Tenis</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-
                 <div class="d-flex justify-content-center">
                     <div class="row ml-sm-2 bg-white shadow ms-sm-1 card-hobbit">
                         <div class="col-4 text-center star d-flex justify-content-center align-items-center">
