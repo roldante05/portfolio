@@ -25,9 +25,9 @@ $pg = "sobre-mi"
             <div class="d-flex align-sm-items-center">
                 <div class="col-10 col-sm-7 descripcion-de-mi">
                     <h1 class="mt-1 mb-3">Sobre mí</h1>
-                    <p class="col-sm-8 col-12">Buenas soy Dante Roldan, estudiante cursando la carrera Tec en Informaica en la ungs, me gusta lo que es la
-                        tecnologia y desarrollar nuevas habilidades, actualmente me estoy especializando en el desarrollo web, de forma autodidacta y
-                        haciendo cursos
+                    <p class="col-sm-8 col-12">Buenas soy Dante Roldan, estudiante de Programación Web, me gusta lo que es la
+                        tecnologia y desarrollar nuevas habilidades, actualmente me estoy especializando en el desarrollo web,inicie de forma autodidacta y
+                        actualmente haciendo una capacitacion en DePC Suite
                     </p>
                     <div class="correo-de-mi mt-sm-5 mt-1">
                         <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
@@ -68,7 +68,7 @@ $pg = "sobre-mi"
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
                         <h3>React</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/react.png" alt="">
+                        <img class="img-fluid d-block mx-auto react" width="60" src="./images/react.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">

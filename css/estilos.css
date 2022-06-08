@@ -40,9 +40,11 @@ p {
   font-size: 16px;
   color: #6a6a6a;
 }
+
 .form-control {
   border-radius: 15px;
 }
+
 .btn-rojo {
   text-decoration: none;
   background-color: #e20000;
@@ -51,42 +53,52 @@ p {
   border-radius: 16px;
   padding: 6px 12px;
 }
+
 .btn-rojo:hover {
   background-color: #370a6d;
   color: white;
 }
+
 .btn-blanco {
   background-color: white;
   border-radius: 15px;
   padding: 5px 23px;
 }
+
 .btn-blanco:hover {
   background-color: #370a6d;
   color: white;
 }
+
 textarea {
   height: 150px;
 }
+
 .proyecto {
   background-color: white;
   border: 1px solid #eee;
 }
+
 .proyecto p {
   height: 148px;
 }
+
 .proyecto h2 {
   font-size: 16px;
   color: white;
   text-transform: uppercase;
   background-color: #e20000;
 }
+
 .proyecto a {
   color: #e20000;
   text-decoration: none;
 }
+
 .proyecto img {
   height: 208px;
 }
+
 footer div a {
   color: white;
   font-weight: 100;
@@ -129,6 +141,10 @@ footer {
   bottom: 0px;
 }
 
+.whatsapp .fa-whatsapp {
+  color: white;
+}
+
 .sponsor {
   color: white;
 }
@@ -142,6 +158,7 @@ footer {
 .computer:hover {
   transform: scale(1.03);
 }
+
 .texto {
   margin-bottom: 37px;
 }
@@ -161,6 +178,7 @@ footer {
   text-decoration: none;
   color: purple;
 }
+
 .btn-violet a:hover {
   background-color: #370a6d;
   color: white;
@@ -195,11 +213,9 @@ footer {
 
 #tecnologias {
   background: rgb(255, 70, 50);
-  background: linear-gradient(
-    185deg,
-    rgba(255, 70, 50, 1) 25%,
-    rgba(244, 70, 7, 1) 100%
-  );
+  background: linear-gradient(185deg,
+      rgba(255, 70, 50, 1) 25%,
+      rgba(244, 70, 7, 1) 100%);
   height: 600px;
 
 }
@@ -225,17 +241,21 @@ section h3 {
 
 
 
- #trabajo .titles h4{
-  color: #370a6d;
-}
- #trabajo .title{
+#trabajo .titles h4 {
   color: #370a6d;
 }
 
-#educacion .titles h4, #cursos .titles h4 {
+#trabajo .title {
+  color: #370a6d;
+}
+
+#educacion .titles h4,
+#cursos .titles h4 {
   color: #e20000;
 }
-#educacion .title,#cursos .title  {
+
+#educacion .title,
+#cursos .title {
   color: #e20000;
 }
 
@@ -243,6 +263,7 @@ section h3 {
   filter: grayscale(100%);
   transition: 0.3s;
 }
+
 .caae img:hover {
   filter: grayscale(0%);
 }
@@ -252,6 +273,7 @@ section h3 {
   filter: grayscale(100%);
   transition: 0.3s;
 }
+
 .ungs img:hover {
   filter: grayscale(0%);
 }
@@ -265,13 +287,16 @@ section h3 {
 .unpaz img:hover {
   filter: grayscale(0%);
 }
+
 .depcsuite img {
   filter: grayscale(100%);
   transition: 0.3s;
 }
+
 .depcsuite img:hover {
   filter: grayscale(0%);
 }
+
 .titles h3 {
   font-size: 18px;
   font-weight: 600;
@@ -341,7 +366,8 @@ section h3 {
   color: #e20000;
 }
 
-#proyectos footer span, #sobre-mi footer span{
+#proyectos footer span,
+#sobre-mi footer span {
   color: #E20000;
 }
 
@@ -381,111 +407,120 @@ section h3 {
 /* MEDIA QUERIES */
 
 @media (max-width: 750px) {
-  #inicio, #contacto  {
+
+  #inicio,
+  #contacto {
     background-image: url(../images/fondo-proyectos.png);
     background-repeat: no-repeat;
     background-size: 100%;
     /* background-size: cover; */
   }
 
-#inicio .mobile{
-  height: 200px;
-}
+  #inicio .mobile {
+    height: 200px;
+  }
 
-#inicio .texto p{
-  color: red;
-  border: 1px solid red;
-}
+  #inicio .texto p {
+    color: red;
+    border: 1px solid red;
+  }
 
-#inicio .btn-violet a{
-  background-color: #370a6d;
-  color: white;
-}
-
-
-#inicio footer .fa-github,
-#inicio footer .fa-linkedin-in,
-#inicio footer a,
-#inicio footer .sponsor{
-  color: red;
-}
-
-#inicio .fa-whatsapp{
-  color: white;
-}
-
-#contacto footer .fa-github,
-#contacto footer .fa-linkedin-in,
-#contacto footer a,
-#contacto footer .sponsor{
-  color: red;
-}
-
-#contacto .fa-whatsapp{
-  color: white;
-}
-
-#proyectos footer .fa-github,
-#proyectos footer .fa-linkedin-in,
-#proyectos footer a,
-#proyectos footer .sponsor{
-  color: red;
-}
-#protectos .fa-whatsapp{
-  color: white;
-}
+  #inicio .btn-violet a {
+    background-color: #370a6d;
+    color: white;
+  }
 
 
+  #inicio footer .fa-github,
+  #inicio footer .fa-linkedin-in,
+  #inicio footer a,
+  #inicio footer .sponsor {
+    color: red;
+  }
 
-#sobre-mi main .d-flex{
-display: flex;
-flex-direction: column;
+  #inicio .fa-whatsapp {
+    color: white;
+  }
 
-}
+  #contacto footer .fa-github,
+  #contacto footer .fa-linkedin-in,
+  #contacto footer a,
+  #contacto footer .sponsor {
+    color: red;
+  }
 
-#sobre-mi .foto-de-mi {
-  width:290px;
-  height: 290px;
-  border-radius: 150px;
-}
+  #contacto .fa-whatsapp {
+    color: white;
+  }
 
-#sobre-mi #tecnologias{
-  height: 1300px;
-}
+  #proyectos footer .fa-github,
+  #proyectos footer .fa-linkedin-in,
+  #proyectos footer a,
+  #proyectos footer .sponsor {
+    color: red;
+  }
 
-#sobre-mi #educacion .formacion, #cursos .formacion{
-  display: flex;
-  flex-direction: column;
-}
+  #protectos .fa-whatsapp {
+    color: white;
+  }
 
-#sobre-mi .row h1{
-  font-size: 28px;
-}
 
-#sobre-mi .row p {
-  font-size: 16px;
-}
 
-#sobre-mi .row .correo-de-mi a{
-  font-size: 14px;
-}
+  #sobre-mi main .d-flex {
+    display: flex;
+    flex-direction: column;
 
-#educacion .title,#cursos .title{
-  font-size: 19px;
-  
-}
+  }
 
-#educacion .titles h3,#cursos .titles h3{
-  font-size: 18px;
-}
+  #sobre-mi .foto-de-mi {
+    width: 290px;
+    height: 290px;
+    border-radius: 150px;
+  }
 
-#trabajo .titles .descripcion{
-  width: 350px;
-  text-align: justify;
-}
+  #sobre-mi #tecnologias {
+    height: 1300px;
+  }
 
-#sobre-mi,#inicio,#contacto,#proyectos{
-  width: 100%;
-}
+  #sobre-mi #educacion .formacion,
+  #cursos .formacion {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sobre-mi .row h1 {
+    font-size: 28px;
+  }
+
+  #sobre-mi .row p {
+    font-size: 16px;
+  }
+
+  #sobre-mi .row .correo-de-mi a {
+    font-size: 14px;
+  }
+
+  #educacion .title,
+  #cursos .title {
+    font-size: 19px;
+
+  }
+
+  #educacion .titles h3,
+  #cursos .titles h3 {
+    font-size: 18px;
+  }
+
+  #trabajo .titles .descripcion {
+    width: 350px;
+    text-align: justify;
+  }
+
+  #sobre-mi,
+  #inicio,
+  #contacto,
+  #proyectos {
+    width: 100%;
+  }
 
 }
