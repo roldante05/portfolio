@@ -43,20 +43,20 @@ $pg = "sobre-mi"
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="my-sm-5 text-white my-3 ">Dominio de tecnologias</h2>
+                    <h2 class="my-sm-5 text-white my-3 ">Dominios de tecnologias</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
+                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 js">
                         <h3>Javascript</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/javascript.jpeg" alt="">
+                        <img class="img-fluid d-block mx-auto " width="60" src="./images/javascript.jpeg" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
                         <h3>PHP</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/hwUcGZ41_400x400.jpg" alt="">
+                        <img class="img-fluid d-block mx-auto" width="100" src="./images/logo_php.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
@@ -66,15 +66,15 @@ $pg = "sobre-mi"
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
+                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 react">
                         <h3>React</h3>
-                        <img class="img-fluid d-block mx-auto react" width="60" src="./images/react.png" alt="">
+                        <img class="img-fluid d-block mx-auto " width="60" src="./images/react.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
+                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 jquery">
                         <h3>Jquery</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/jquery.jpg" alt="">
+                        <img class="img-fluid d-block mx-auto " width="60" src="./images/jquery.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
@@ -86,21 +86,21 @@ $pg = "sobre-mi"
             </div>
             <div class="row">
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
+                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4 laravel">
                         <h3>Laravel</h3>
-                        <img class="img-fluid d-block mx-auto" width="110" src="./images/laravel.png" alt="">
+                        <img class="img-fluid d-block mx-auto " width="100" src="./images/laravel.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
+                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4 mysql">
                         <h3>MySQL</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/mysql.png" alt="">
+                        <img class="img-fluid d-block mx-auto" width="80" src="./images/mysql.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
                         <h3>CSS3</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/css.png" alt="">
+                        <img class="img-fluid d-block mx-auto" width="80" src="./images/css.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
@@ -116,9 +116,9 @@ $pg = "sobre-mi"
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
+                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4 mercadopago">
                         <h3>Mercado pago</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/mercadopago.jpg" alt="">
+                        <img class="img-fluid d-block mx-auto " width="60" src="./images/mercadopago.jpg" alt="">
                     </div>
                 </div>
             </div>

@@ -230,6 +230,17 @@ footer {
   height: 180px;
 }
 
+#tecnologias .react,
+.js,
+.mercadopago,
+.jquery,
+.laravel,
+.mysql {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+
 section h3 {
   font-size: 23px;
 }
