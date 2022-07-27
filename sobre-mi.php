@@ -117,7 +117,7 @@ $pg = "sobre-mi"
                 </div>
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4 mercadopago">
-                        <h3>Mercado pago</h3>
+                        <h3>API</h3>
                         <img class="img-fluid d-block mx-auto " width="60" src="./images/mercadopago.jpg" alt="">
                     </div>
                 </div>
@@ -134,8 +134,8 @@ $pg = "sobre-mi"
                     </div>
 
                     <div class="titles col-10  pt-sm-4">
-                        <h3>Soldado de 2da (vs "ec")</h3>
-                        <h4>Comando de Adiestramiento y Alistamiento del Ejercito Argentino</h3>
+                        <h3>Comando de Adiestramiento y Alistamiento del Ejercito Argentino</h3>
+                        <h4>Soldado de 2da (vs "ec")</h4>
                             <h5>2021 - 2022</h5>
                             <p class="descripcion">
                                 Cumplimiento de los estándares de disciplina,
@@ -154,9 +154,9 @@ $pg = "sobre-mi"
     <section id="educacion">
         <div class="container">
             <h3 class="my-3 my-sm-5 title"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i></i>Formacion
-                Academica (Cursando)</h3>
+                Academica </h3>
             <div class="row shadow">
-                <div class="col-12 col-sm-7 pt-4">
+                <!-- <div class="col-12 col-sm-7 pt-4">
                     <div class="formacion row">
                         <div class="ungs col-sm-3 d-none d-sm-block">
                             <img src="./images/ungs.jfif" width="130" alt="">
@@ -167,24 +167,25 @@ $pg = "sobre-mi"
                                 <h5>2022 - Actualmente Cursando (1er año)</h3>
                                     <p>https://www.ungs.edu.ar/</p>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+                
 
                 <!-- COMENTADO POR QUE DEJE LA  CARRERA PENDIENTE -->
 
-                <!-- <div class="col-12 col-sm-6 pt-4">
+                <div class="col-12 col-sm-7 pt-4">
                     <div class="row">
                         <div class="unpaz col-sm-3  d-none d-sm-block">
                             <img src="./images/unpaz.jpg" width="130" alt="">
                         </div>
-                        <div class="titles col-sm-8 py-3">
-                            <h3>Analistas de Sistemas</h3>
-                            <h4>Universidad Nacional de José C. Paz</h3>
-                                <h5>2022 - Actualmente Cursando (1er año)</h3>
+                        <div class="titles col-sm-9 py-3">
+                            <h3>Universidad Nacional de José C. Paz</h3>
+                            <h4>Analistas de Sistemas</h4>
+                                <h5>2022 - Actualidad</h5>
                                     <p>https://www.unpaz.edu.ar/</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
+                </div>
 
             </div>
 
@@ -201,8 +202,8 @@ $pg = "sobre-mi"
                             <img class="pt-5" src="./images/logo-depcsuite.svg" width="130" alt="">
                         </div>
                         <div class="titles col-sm-8 py-3">
-                            <h3>Desarrollo Web Full Stack</h3>
-                            <h4>DePc Suite</h3>
+                            <h3>DePc Suite</h3>
+                            <h4>Programación Web Full Stack</h4>
                                 <h5>2022 - Actualmente Cursando </h3>
                                     <p>https://depcsuite.com/</p>
                         </div>
@@ -221,6 +222,20 @@ $pg = "sobre-mi"
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="ungs col-sm-4 py-3 d-none d-sm-block">
+                            <img src="./images/fundacionp.jpg" width="170" alt="">
+                        </div>
+                        <div class="titles col-sm-8 py-3">
+                            <h3>Fundación Pescar, Santander , J.P Morgan</h3>
+                            <h4>Educación IT</h3>
+                            <h4>Desarrollo Web Full Stack</h3>
+                                <h5> Julio - Actualmente - 2022</h3>
+                                    <p>http://www.pescar.org.ar/wp/ </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -236,8 +251,7 @@ $pg = "sobre-mi"
                             <h2>HOBBIES</h2>
                             <ul>
                                 <li>Futbol</li>
-                                <li>Mates</li>
-                                <li>Series</li>
+                                <li>Runner</li>
                                 <li>Bartender</li>
                             </ul>
                         </div>

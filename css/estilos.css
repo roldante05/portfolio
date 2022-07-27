@@ -230,16 +230,6 @@ footer {
   height: 180px;
 }
 
-#tecnologias .react,
-.js,
-.mercadopago,
-.jquery,
-.laravel,
-.mysql {
-  filter: grayscale(100%);
-  opacity: 0.5;
-}
-
 
 section h3 {
   font-size: 23px;
@@ -252,21 +242,19 @@ section h3 {
 
 
 
-#trabajo .titles h4 {
+#trabajo .titles h4, #cursos .titles h4 {
   color: #370a6d;
 }
 
-#trabajo .title {
+#trabajo .title, #cursos .title  {
   color: #370a6d;
 }
 
-#educacion .titles h4,
-#cursos .titles h4 {
+#educacion .titles h4 {
   color: #e20000;
 }
 
-#educacion .title,
-#cursos .title {
+#educacion .title{
   color: #e20000;
 }
 
@@ -461,6 +449,11 @@ section h3 {
   }
 
   #contacto .fa-whatsapp {
+    color: white;
+  }
+
+  #contacto .btn-blanco{
+    background-color: #370a6d;
     color: white;
   }
 
