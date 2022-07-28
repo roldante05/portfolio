@@ -23,7 +23,7 @@ if ($_POST) {
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
+ 
   <title><?php echo $pg; ?></title>
 
   <!-- Custom fonts for this template-->
@@ -53,7 +53,7 @@ if ($_POST) {
   <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
   <link href="css/estilos.css" rel="stylesheet" type="text/css">
   <script src="https://cdn.ckeditor.com/ckeditor5/18.0.0/classic/ckeditor.js"></script>
-
+  <link rel="shortcut icon" href="img/ventas.png" type="image/x-icon">
 </head>
 
 <body id="page-top">

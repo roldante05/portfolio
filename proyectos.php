@@ -16,6 +16,7 @@ $pg = "proyectos"
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/developer.png" type="image/x-icon">
 </head>
 
 <body id="proyectos">
@@ -64,7 +65,7 @@ $pg = "proyectos"
                             <a href="projects/sistema_ventas/login.php" target="_blank" class="btn btn-rojo">Ver online</a>
                         </div>
                         <div class="col-6 text-center">
-                            <a href="" target="_blank">Codigo fuente</a>
+                            <a href="projects/sistema_ventas/fuente.txt" target="_blank">Codigo fuente</a>
                         </div>
                     </div>
                 </div>
@@ -80,10 +81,10 @@ $pg = "proyectos"
 
                     <div class="row my-5">
                         <div class="col-6 ps-4">
-                            <a href="" target="_blank" class="btn btn-rojo">Ver online</a>
+                            <a href="" target="_blank" class="btn btn-rojo"  style=" pointer-events: none;  background-color: rgb(210, 210, 220); color:black !important; ">Ver online</a>
                         </div>
                         <div class="col-6 text-center">
-                            <a href="" target="_blank">Codigo fuente</a>
+                            <a href="" target="_blank" style="pointer-events: none;  color:black !important;" >Codigo fuente</a>
                         </div>
                     </div>
                 </div>
