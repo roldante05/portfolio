@@ -26,15 +26,16 @@ $pg = "sobre-mi"
             <div class="d-flex align-sm-items-center">
                 <div class="col-10 col-sm-7 descripcion-de-mi">
                     <h1 class="mt-1 mb-3">Sobre mí</h1>
-                    <p class="col-sm-8 col-12">Buenas soy Dante Roldan, estudiante de Programación Web, me gusta lo que es la
-                        tecnologia y desarrollar nuevas habilidades, actualmente me estoy especializando en el desarrollo web,inicie de forma autodidacta y
-                        actualmente haciendo una capacitacion en DePC Suite
+                    <p class="col-sm-8 col-12">Mi llamo Dante Roldan, soy estudiante universitario, apasionado
+                        por la tecnología y videojuegos. Busco nuevas experiencia en 
+                        relación de dependencia, me gusta trabajar en equipo, creativo, 
+                        me adapto a los cambios. Tengo conomientos en Programación Web
                     </p>
                     <div class="correo-de-mi mt-sm-5 mt-1">
                         <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
                     </div>
                 </div>
-                <div class="mt-5 mb-4 foto-de-mi ms-4">
+                <div class="mt-5 mt-sm-4 mb-4 foto-de-mi ms-4">
                     <!-- <img src="./images/foto_dante.jpg" alt="Dante Roldan"> -->
                 </div>
             </div>
@@ -49,23 +50,33 @@ $pg = "sobre-mi"
             </div>
             <div class="row">
                 <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 js">
-                        <h3>Javascript</h3>
-                        <img class="img-fluid d-block mx-auto " width="60" src="./images/javascript.jpeg" alt="">
-                    </div>
-                </div>
-                <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
-                        <h3>PHP</h3>
-                        <img class="img-fluid d-block mx-auto" width="100" src="./images/logo_php.png" alt="">
-                    </div>
-                </div>
-                <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
                         <h3>HTML5</h3>
                         <img class="img-fluid d-block mx-auto" width="60" src="./images/html.png" alt="">
                     </div>
                 </div>
+
+                <div class="col-6 col-sm-2">
+                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
+                        <h3>CSS3</h3>
+                        <img class="img-fluid d-block mx-auto" width="80" src="./images/cssdos.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-2">
+                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
+                        <h3>Bootstrap</h3>
+                        <img class="img-fluid d-block mx-auto" width="60" src="./images/boostraps.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-2">
+                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 js">
+                        <h3>Javascript</h3>
+                        <img class="img-fluid d-block mx-auto " width="60" src="./images/javascript.jpeg" alt="">
+                    </div>
+                </div>
+
+
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 react">
                         <h3>React</h3>
@@ -78,14 +89,17 @@ $pg = "sobre-mi"
                         <img class="img-fluid d-block mx-auto " width="60" src="./images/jquery.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0">
-                        <h3>Bootstrap</h3>
-                        <img class="img-fluid d-block mx-auto" width="60" src="./images/boostraps.png" alt="">
-                    </div>
-                </div>
+
             </div>
             <div class="row">
+
+                <div class="col-6 col-sm-2">
+                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
+                        <h3>PHP</h3>
+                        <img class="img-fluid d-block mx-auto" width="100" src="./images/logo_php.png" alt="">
+                    </div>
+                </div>
+
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4 laravel">
                         <h3>Laravel</h3>
@@ -98,12 +112,7 @@ $pg = "sobre-mi"
                         <img class="img-fluid d-block mx-auto" width="80" src="./images/mysql.png" alt="">
                     </div>
                 </div>
-                <div class="col-6 col-sm-2">
-                    <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
-                        <h3>CSS3</h3>
-                        <img class="img-fluid d-block mx-auto" width="80" src="./images/css.png" alt="">
-                    </div>
-                </div>
+
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4">
                         <h3>Git</h3>
@@ -129,25 +138,41 @@ $pg = "sobre-mi"
         <div class="container">
             <h3 class="my-sm-5 my-5 title"><i class="fa-solid fa-briefcase" style="margin-right: 5px;"></i>Experiencia laboral</h3>
             <div class="row shadow">
-                <div class="d-flex align-items-sm-center">
-                    <div class="caae col-2  d-none d-sm-block">
-                        <img src="./images/caae.png" width="130" alt="">
-                    </div>
-
-                    <div class="titles col-10  pt-sm-4">
-                        <h3>Comando de Adiestramiento y Alistamiento del Ejercito Argentino</h3>
-                        <h4>Soldado de 2da (vs "ec")</h4>
-                            <h5>2021 - 2022</h5>
-                            <p class="descripcion">
-                                Cumplimiento de los estándares de disciplina,
-                                uso de armas y mantenimiento de las mismas,
-                                limpieza y cuidado de las instalaciones militares de
-                                residencia,
-                                servicio de guardia y seguridad
-                            </p>
-
+                <div class="col-12 col-sm-5 pt-4">
+                    <div class="row">
+                        <div class="caae col-2 col-sm-4 d-none d-sm-block">
+                            <img src="./images/tecnico.png" width="120" alt="">
+                        </div>
+                        <div class="titles col-10 col-sm-8 pb-sm-2">
+                            <h3>Emprendimiento</h3>
+                            <h4>Servicio Tecnico de PC</h4>
+                            <h5> Marzo 2021 - Mayo 2022 </h5>
+                            <ul>
+                                <li>Instalación de Software</li>
+                                <li>Instalación de Programas</li>
+                                <li>Mantenimiento de Software</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-12 col-sm-7 pt-4">
+                    <div class="row">
+                        <div class="caae col-2 col-sm-3 d-none d-sm-block">
+                            <img src="./images/web.png" width="130" alt="">
+                        </div>
+                        <div class="titles col-10 col-sm-9 pb-sm-2">
+                            <h3>FREELANCE</h3>
+                            <h4>Programación Web</h4>
+                            <h5> Mayo - Junio 2022 </h5>
+                            <ul>
+                                <li >Desarrollo de paginas web</li>
+                                <li>Implementando tecnologías como HTML, CSS, Bootstrap y PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -169,7 +194,7 @@ $pg = "sobre-mi"
                                     <p>https://www.ungs.edu.ar/</p>
                         </div>
                     </div> -->
-                
+
 
                 <!-- COMENTADO POR QUE DEJE LA  CARRERA PENDIENTE -->
 
@@ -180,15 +205,15 @@ $pg = "sobre-mi"
                         </div>
                         <div class="titles col-sm-9 py-3">
                             <h3>Universidad Nacional de José C. Paz</h3>
-                            <h4>Analistas de Sistemas</h4>
-                                <h5>2022 - Actualidad</h5>
-                                    <p>https://www.unpaz.edu.ar/</p>
+                            <h4>Analistas de Sistemas (Nivel Inicial)</h4>
+                            <h5>2021 - Actualidad</h5>
+                            <p><a href="https://www.unpaz.edu.ar/">UNPAZ</a></p>
                         </div>
                     </div>
                 </div>
-                </div>
-
             </div>
+
+        </div>
 
         </div>
     </section>
@@ -205,8 +230,8 @@ $pg = "sobre-mi"
                         <div class="titles col-sm-8 py-3">
                             <h3>DePc Suite</h3>
                             <h4>Programación Web Full Stack</h4>
-                                <h5>2022 - Actualmente Cursando </h3>
-                                    <p>https://depcsuite.com/</p>
+                            <h5> Marzo - Agosto 2022 </h3>
+                                <p><a href="https://depcsuite.com/">DePC Suite</a></p>
                         </div>
                     </div>
                 </div>
@@ -219,7 +244,7 @@ $pg = "sobre-mi"
                             <h3>Bartender</h3>
                             <h4>Papillote Coworking</h3>
                                 <h5> Febrero - Abril - 2022</h3>
-                                    <p>https://www.instagram.com <br> /cocktailclan.sm/</p>
+                                    <p><a href="https://www.instagram.com/cocktailclan.sm/">Papillote Coworking</a></p>
                         </div>
                     </div>
                 </div>
@@ -231,9 +256,9 @@ $pg = "sobre-mi"
                         <div class="titles col-sm-8 py-3">
                             <h3>Fundación Pescar, Santander , J.P Morgan</h3>
                             <h4>Educación IT</h3>
-                            <h4>Desarrollo Web Full Stack</h3>
-                                <h5> Julio - Actualmente - 2022</h3>
-                                    <p>http://www.pescar.org.ar/wp/ </p>
+                                <h4>Desarrollo Web Full Stack</h3>
+                                    <h5> Julio - Actualmente - 2022</h3>
+                                        <p> <a href="http://www.pescar.org.ar/wp/">Fundación Pescar</a> </p>
                         </div>
                     </div>
                 </div>
