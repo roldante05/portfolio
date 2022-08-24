@@ -189,8 +189,9 @@ footer {
 .foto-de-mi {
   width: 250px;
   height: 250px;
-  background-image: url(../images/foto_dante.jpg);
+  background-image: url(../images/foto-dan.JPG);
   background-size: 100%;
+  background-position: bottom;
   border-radius: 120px;
   border: 3px solid black;
 }
