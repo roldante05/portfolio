@@ -24,14 +24,14 @@ $pg = "sobre-mi"
     <main class="container">
         <div class="row">
             <div class="d-flex align-sm-items-center">
-                <div class="col-10 col-sm-7 descripcion-de-mi">
+                <div class="col-11 col-sm-7 descripcion-de-mi">
                     <h1 class="mt-1 mb-3">Sobre mí</h1>
-                    <p class="col-sm-8 col-12">Mi llamo Dante Roldan, soy estudiante universitario, apasionado
-                        por la tecnología y videojuegos. Busco nuevas experiencia en 
-                        relación de dependencia, me gusta trabajar en equipo, creativo, 
-                        me adapto a los cambios. Tengo conomientos en Programación Web
+                    <p class="col-sm-9 col-12">Mi nombre es Dante Roldan, soy estudiante universitario, apasionado
+                        por la tecnología y videojuegos.Busco nuevas experiencias que me permitan crecer profesionalmente 
+                        en el área it. Me gusta trabajar en equipo, soy creativo y con capacidad para adaptarme a los cambios. 
+                        Cuento con conocimientos en el área de programación web full stack y experiencia en diferentes proyectos
                     </p>
-                    <div class="correo-de-mi mt-sm-5 mt-1">
+                    <div class="correo-de-mi mt-sm-3 mt-1">
                         <a href="mailto:roldandante72@gmail.com">Enviar mensaje</a>
                     </div>
                 </div>
@@ -80,13 +80,19 @@ $pg = "sobre-mi"
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 react">
                         <h3>React</h3>
-                        <img class="img-fluid d-block mx-auto " width="60" src="./images/react.png" alt="">
+                        <figure>
+                            <img class="img-fluid d-block mx-auto " width="60" src="./images/react.png" alt="React">
+                            <figcaption>No disponible</figcaption>
+                        </figure>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 jquery">
                         <h3>Jquery</h3>
-                        <img class="img-fluid d-block mx-auto " width="60" src="./images/jquery.jpg" alt="">
+                        <figure>
+                            <img class="img-fluid d-block mx-auto " width="60" src="./images/jquery.jpg" alt="Jquery">
+                            <figcaption>No disponible</figcaption>
+                        </figure>
                     </div>
                 </div>
 
@@ -166,7 +172,7 @@ $pg = "sobre-mi"
                             <h4>Programación Web</h4>
                             <h5> Mayo - Junio 2022 </h5>
                             <ul>
-                                <li >Desarrollo de paginas web</li>
+                                <li>Desarrollo de paginas web</li>
                                 <li>Implementando tecnologías como HTML, CSS, Bootstrap y PHP</li>
                             </ul>
                         </div>
