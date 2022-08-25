@@ -422,6 +422,20 @@ figure:hover > figcaption {
 
 @media (max-width: 750px) {
 
+  .whatsapp{
+      position: fixed;
+      right: 16px;
+      top: 87%;
+      /* font-size: 1.5rem; */
+      display: block;
+      flex-direction: column;
+      align-items: flex-end;
+      z-index: 100;
+      bottom: 27px; 
+      border-radius: 30px;
+    
+  }
+
   #inicio,
   #contacto {
     background-image: url(../images/fondo-proyectos.png);
