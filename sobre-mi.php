@@ -304,7 +304,7 @@ $pg = "sobre-mi"
             <div class="col-12 col-sm-3 text-center text-sm-start"> <a href="mailto:">danteroldan72@gmail.com</a></div>
         </div>
         <div class="whatsapp">
-            <a href=""><i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=541162423341"><i class="fa-brands fa-whatsapp" style="color: white;"></i></a>
         </div>
     </footer>
 
