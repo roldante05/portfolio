@@ -42,7 +42,7 @@ $pg = "proyectos"
                         PHP, Bootstrap y Json.</p>
                     <div class="row my-5">
                         <div class="col-6 ps-4">
-                            <a href="https://danterol.000webhostapp.com/abmclientes/" target="_blank" class="btn btn-rojo">Ver online</a>
+                            <a href="https://github.com/roldante05/php/tree/main/abmclientes" target="_blank" class="btn btn-rojo">Ver Repositorio</a>
                         </div>
                         <div class="col-6 text-center">
                             <a href="projects/fuente.txt" target="_blank">Codigo fuente</a>
@@ -62,7 +62,7 @@ $pg = "proyectos"
 
                     <div class="row my-5">
                         <div class="col-6 ps-4">
-                            <a href="projects/sistema_ventas/login.php" target="_blank" class="btn btn-rojo">Ver online</a>
+                            <a href="https://github.com/roldante05/php/tree/main/sistema_ventas" target="_blank" class="btn btn-rojo">Ver Repositorio</a>
                         </div>
                         <div class="col-6 text-center">
                             <a href="projects/sistema_ventas/fuente.txt" target="_blank">Codigo fuente</a>
@@ -81,7 +81,7 @@ $pg = "proyectos"
 
                     <div class="row my-5">
                         <div class="col-6 ps-4">
-                            <a href="" target="_blank" class="btn btn-rojo"  style=" pointer-events: none;  background-color: rgb(210, 210, 220); color:black !important; ">Ver online</a>
+                            <a href="" target="_blank" class="btn btn-rojo"  style=" pointer-events: none;  background-color: rgb(210, 210, 220); color:black !important; ">Ver Repositorio</a>
                         </div>
                         <div class="col-6 text-center">
                             <a href="" target="_blank" style="pointer-events: none;  color:black !important;" >Codigo fuente</a>

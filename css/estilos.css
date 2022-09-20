@@ -95,7 +95,7 @@ textarea {
   text-decoration: none;
 }
 
-.proyecto img {
+.proyecto img, iframe {
   height: 208px;
 }
 
