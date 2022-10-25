@@ -32,8 +32,8 @@ $pg = "proyectos"
                 <p>Los siguientes son algunos de los trabajos que he realizado:</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-4 p-3">
+        <div class="row contenedor-proyecto">
+            <!-- <div class="col-12 col-sm-4 p-3">
                 <div class="proyecto">
                     <img src="./images/abmclientes.png" alt="ABM clientes" class="img-fluid">
                     <h2 class="p-3 d-block">ABM clientes</h2>
@@ -49,8 +49,8 @@ $pg = "proyectos"
                         </div>
                     </div>
                 </div>
-
             </div>
+            
             <div class="col-12 col-sm-4 p-3 ">
                 <div class="proyecto">
                     <img src="./images/abmventas.png" alt="ABM clientes" class="img-fluid">
@@ -88,9 +88,10 @@ $pg = "proyectos"
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </main>
+
     <footer class="container col-sm-12 col-12 ">
         <div class="row">
             <div class="col-12 col-sm-3 text-center text-sm-start">
@@ -106,7 +107,7 @@ $pg = "proyectos"
         </div>
     </footer>
 
-
+<script src="./js/proyectos.js"></script>
 </body>
 
 </html>

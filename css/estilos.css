@@ -60,13 +60,14 @@ p {
 }
 
 .btn-blanco {
-  background-color: white;
-  border-radius: 15px;
-  padding: 5px 23px;
+  background-color: #7629d4;;
+  border-radius: 16px;
+  padding: 6px 12px;
+  color: white !important;
 }
 
 .btn-blanco:hover {
-  background-color: #370a6d;
+  background-color: #0a296d;
   color: white;
 }
 
@@ -371,21 +372,6 @@ section h3 {
   color: #E20000;
 }
 
-.react, .jquery{
-  filter: grayscale(100%);
-}
-
-/* Invisible texto */
-figcaption {
-  display:none; 
-  transition: all .5s;
-}
-/* Visible texto */
-figure:hover > figcaption {
-  display:block;
-  transition: all .5s;
-  text-align: center;
-}
 
 
 /* proyectos */

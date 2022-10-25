@@ -80,19 +80,13 @@ $pg = "sobre-mi"
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 react">
                         <h3>React</h3>
-                        <figure>
                             <img class="img-fluid d-block mx-auto " width="60" src="./images/react.png" alt="React">
-                            <figcaption>No disponible</figcaption>
-                        </figure>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mb-4 mb-sm-0 jquery">
                         <h3>Jquery</h3>
-                        <figure>
                             <img class="img-fluid d-block mx-auto " width="60" src="./images/jquery.jpg" alt="Jquery">
-                            <figcaption>No disponible</figcaption>
-                        </figure>
                     </div>
                 </div>
 
@@ -133,8 +127,9 @@ $pg = "sobre-mi"
                 </div>
                 <div class="col-6 col-sm-2">
                     <div class="card py-5 px-4  mx-0 mt-4 mb-sm-4 mercadopago">
-                        <h3>API</h3>
-                        <img class="img-fluid d-block mx-auto " width="60" src="./images/mercadopago.jpg" alt="">
+                        <h3>AJAX</h3>
+                        <!-- <img class="img-fluid d-block mx-auto " width="80" src="./images/ajax.png" alt=""> -->
+                        <img class="img-fluid d-block mx-auto " width="80" src="./images/ajax.png" alt="">
                     </div>
                 </div>
             </div>
